@@ -29,3 +29,8 @@
     background-color: var(--gh-coffee);
     color: white;
 }
+
+.about-preview-img {
+    max-height: 480px;
+    object-fit: contain;
+}
