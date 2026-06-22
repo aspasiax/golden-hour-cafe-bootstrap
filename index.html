@@ -8,69 +8,115 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-            <img src="assets/favicon/favicon.png" alt="Golden Hour Café logo" width="48" height="48">
-            <span class="fw-semibold">Golden Hour Café</span>
-        </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/favicon/favicon.png" alt="Golden Hour Café logo" width="48" height="48">
+                <span class="fw-semibold">Golden Hour Café</span>
+            </a>
 
-        <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<section class="hero-section py-5">
-    <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <h1 class="display-3 fw-bold">Golden Hour Café</h1>
-                <p class="lead">
-                    Where every cup feels like sunset.
-                </p>
-                <p>
-                    Discover handcrafted coffee, fresh pastries and warm moments in the heart of the city.
-                </p>
-
-                <a href="menu.html" class="btn btn-golden me-2">View Menu</a>
-                <a href="contact.html" class="btn btn-outline-golden">Contact Us</a>
-            </div>
-
-            <div class="col-lg-6 text-center mt-4 mt-lg-0">
-                <img src="assets/logo/logo.png" alt="Golden Hour Café logo" class="img-fluid" style="max-width: 350px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-</section>
+    </nav>
+
+    <header class="hero-section py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold">Golden Hour Café</h1>
+                    <p class="lead">
+                        Where every cup feels like sunset.
+                    </p>
+                    <p>
+                        Discover handcrafted coffee, fresh pastries and warm moments in the heart of the city.
+                    </p>
+
+                    <a href="menu.html" class="btn btn-golden me-2">View Menu</a>
+                    <a href="contact.html" class="btn btn-outline-golden">Contact Us</a>
+                </div>
+
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="assets/logo/logo.png" alt="Golden Hour Café logo" class="img-fluid" style="max-width: 350px;">
+                </div>
+            </div>
+        </div>
+    </header>
     
+    <main>
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Featured Drinks</h2>
+                <p class="text-muted">Our favorite golden moments in a cup.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/cappuccino.jpg" class="card-img-top" alt="Cappuccino">
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Cappuccino</h5>
+                            <p class="card-text">
+                                A smooth classic cappuccino with rich espresso and creamy foam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/latte.jpg" class="card-img-top" alt="Caramel latte">
+                        <div class="card-body">
+                            <h5 class="card-title">Caramel Sunset Latte</h5>
+                            <p class="card-text">
+                                Warm espresso, steamed milk and sweet caramel notes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/cheesecake.jpg" class="card-img-top" alt="Cheesecake and coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee & Cheesecake</h5>
+                            <p class="card-text">
+                                A cozy pairing of fresh cheesecake and your favorite coffee.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
