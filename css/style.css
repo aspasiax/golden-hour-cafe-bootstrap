@@ -1,0 +1,31 @@
+:root {
+    --gh-cream: #f8f3e9;
+    --gh-caramel: #c68b59;
+    --gh-coffee: #6f4e37;
+    --gh-dark: #3e2723;
+}
+
+.hero-section {
+    background-color: var(--gh-cream);
+}
+
+.btn-golden {
+    background-color: var(--gh-coffee);
+    color: white;
+    border: 1px solid var(--gh-coffee);
+}
+
+.btn-golden:hover {
+    background-color: var(--gh-dark);
+    color: white;
+}
+
+.btn-outline-golden {
+    color: var(--gh-coffee);
+    border: 1px solid var(--gh-coffee);
+}
+
+.btn-outline-golden:hover {
+    background-color: var(--gh-coffee);
+    color: white;
+}
