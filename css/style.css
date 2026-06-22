@@ -34,3 +34,7 @@
     max-height: 480px;
     object-fit: contain;
 }
+
+footer {
+    background-color: var(--gh-dark);
+}
