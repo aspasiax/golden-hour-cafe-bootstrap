@@ -5,6 +5,10 @@
     --gh-dark: #3e2723;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 .hero-section {
     background-color: var(--gh-cream);
 }
@@ -33,6 +37,54 @@
 .about-preview-img {
     max-height: 480px;
     object-fit: contain;
+}
+
+.navbar {
+    background-color: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    color: var(--gh-coffee);
+}
+
+.nav-link {
+    color: var(--gh-coffee) !important;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--gh-caramel) !important;
+}
+
+.nav-link.active {
+    color: var(--gh-caramel) !important;
+}
+
+.card {
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-golden,
+.btn-outline-golden {
+    transition: all 0.3s ease;
+}
+
+.btn-golden:hover,
+.btn-outline-golden:hover {
+    transform: translateY(-2px);
 }
 
 footer {
