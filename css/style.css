@@ -50,10 +50,12 @@ h2 {
         #f3e5d0 50%,
         #e8d8c3 100%
     );
+    padding: 4rem 0;
 }
 
 .hero-section h1 {
     color: var(--gh-dark);
+    font-size: 3.5rem;
 }
 
 .hero-section .lead {
@@ -137,6 +139,13 @@ h2 {
 }
 
 
+/* Menu Styling */
+.price {
+    color: var(--gh-coffee);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
 /* Back To Top */
 
 #backToTop {
@@ -156,4 +165,16 @@ h2 {
 footer {
     background-color: var(--gh-dark);
     border-top: 4px solid var(--gh-caramel);
+}
+
+.footer-socials a {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.footer-socials a:hover {
+    color: var(--gh-caramel);
 }
