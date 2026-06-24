@@ -49,82 +49,83 @@
 
 <main>
     <section class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-5">
-                <h2 class="fw-bold mb-4">Visit Golden Hour Café</h2>
-
-                <p class="mb-4">
-                    Whether you want to enjoy your morning coffee, meet a friend,
-                    or spend a quiet afternoon with something sweet, our doors are open.
-                </p>
-
-                <div class="mb-4">
-                    <h5 class="fw-bold">Address</h5>
-                    <p class="mb-0">Aristotelous Square</p>
-                    <p>Thessaloniki, Greece</p>
-                </div>
-
-                <div class="mb-4">
-                    <h5 class="fw-bold">Opening Hours</h5>
-                    <p class="mb-0">Monday - Sunday</p>
-                    <p>08:00 - 22:00</p>
-                </div>
-
-                <div class="mb-4">
-                    <h5 class="fw-bold">Contact</h5>
-                    <p class="mb-0">Phone: +30 2310 000000</p>
-                    <p>Email: hello@goldenhourcafe.com</p>
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-geo-alt value-icon"></i>
+                        <h5 class="fw-bold">Address</h5>
+                        <p class="mb-0">Aristotelous Square</p>
+                        <p class="mb-0">Thessaloniki, Greece</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-clock value-icon"></i>
+                        <h5 class="fw-bold">Opening Hours</h5>
+                        <p class="mb-0">Monday - Sunday</p>
+                        <p class="mb-0">08:00 - 22:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-envelope value-icon"></i>
+                        <h5 class="fw-bold">Contact</h5>
+                        <p class="mb-0">+30 2310 000000</p>
+                        <p class="mb-0">hello@goldenhourcafe.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
                 <div class="card shadow-sm border-0">
-                    <div class="card-body p-4">
-                        <h2 class="fw-bold mb-4">Send us a message</h2>
+                    <div class="card-body p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <span class="section-label">Get in Touch</span>
+                            <h2 class="fw-bold">Send us a message</h2>
+                            <p class="text-muted mb-0">
+                                We would love to hear from you.
+                            </p>
+                        </div>
 
                         <form>
+                            <div id="formMessage" class="alert alert-success d-none" role="alert">
+                                Thank you! Your message has been sent successfully.
+                            </div>
+
                             <div class="mb-3">
                                 <label for="name" class="form-label">Full Name</label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="name"
-                                    placeholder="Enter your full name">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
                             </div>
 
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email Address</label>
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    id="email"
-                                    placeholder="Enter your email">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
                             </div>
 
                             <div class="mb-3">
                                 <label for="subject" class="form-label">Subject</label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="subject"
-                                    placeholder="How can we help?">
+                                <input type="text" class="form-control" id="subject" placeholder="How can we help?">
                             </div>
 
                             <div class="mb-4">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea
-                                    class="form-control"
-                                    id="message"
-                                    rows="5"
-                                    placeholder="Write your message here"></textarea>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here"></textarea>
                             </div>
 
-                            <div id="formMessage" class="alert alert-success d-none" role="alert">
-                                Thank you! Your message has been sent successfully.
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-golden">
+                                    Send Message
+                                </button>
                             </div>
-                            <button type="submit" class="btn btn-golden">
-                                Send Message
-                            </button>
                         </form>
                     </div>
                 </div>
