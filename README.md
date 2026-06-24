@@ -40,13 +40,10 @@ The website focuses on user-friendly navigation, responsive layouts and a warm v
 golden-hour-cafe-bootstrap/
 │
 ├── assets/
-│   ├── favicon/
+│   ├── screenshots/
 │   ├── images/
-│   │   └── menu/
-│   │       ├── hot-drinks/
-│   │       ├── cold-drinks/
-│   │       └── desserts/
-│   └── logo/
+│   ├── logo/
+│   └── favicon/
 │
 ├── css/
 │   └── style.css
@@ -78,6 +75,20 @@ Displays a categorized menu of drinks and desserts with images and pricing.
 ### Contact
 
 Provides contact information and a contact form for visitors.
+
+## Screenshots
+
+### Home Page
+![Home Page](assets/screenshots/home-page.png)
+
+### About Page
+![About Page](assets/screenshots/about-page.png)
+
+### Menu Page
+![Menu Page](assets/screenshots/menu-page.png)
+
+### Contact Page
+![Contact Page](assets/screenshots/contact-page.png)
 
 ## Author
 
