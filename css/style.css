@@ -146,6 +146,14 @@ h2 {
     font-weight: 700;
 }
 
+/* Value Icons */
+
+.value-icon {
+    color: var(--gh-caramel);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 /* Back To Top */
 
 #backToTop {
