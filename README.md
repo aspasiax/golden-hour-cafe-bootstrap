@@ -8,6 +8,10 @@ Golden Hour Café is a fictional coffee shop website created as a front-end web 
 
 The website focuses on user-friendly navigation, responsive layouts and a warm visual identity inspired by the colors of coffee and golden hour sunsets.
 
+## Live Demo
+
+https://aspasiax.github.io/golden-hour-cafe-bootstrap/
+
 ## Features
 
 * Responsive design for desktop, tablet and mobile devices
